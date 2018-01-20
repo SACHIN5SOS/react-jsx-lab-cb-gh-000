@@ -1,8 +1,10 @@
 import FillerText from './FillerText';
 import ReactDOM from 'react-dom';
+import React from 'react';
 
+const title= React.createElement('p',{},'The world's coolest webpage.');
 ReactDOM.render(
-  <p>The worlds coolest page</p>
+  title,
   <FillerText />,
   <FillerText />,
   document.getElementById('global')

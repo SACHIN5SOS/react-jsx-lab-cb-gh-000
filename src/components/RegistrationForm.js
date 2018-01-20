@@ -8,6 +8,8 @@ class RegistrationForm extends React.Component{
         <input type="password">
         <button type="submit"></button>
       </form>
-    )
+    );
   }
 }
+
+export default RegistrationForm;

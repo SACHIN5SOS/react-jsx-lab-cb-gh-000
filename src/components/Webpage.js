@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 ReactDOM.render(
   <p>The worlds coolest page</p>
-  <FillerText />
+  <FillerText />,
   <FillerText />,
   document.getElementById('global')
 );

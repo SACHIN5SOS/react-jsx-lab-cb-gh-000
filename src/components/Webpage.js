@@ -4,7 +4,7 @@ import React from 'react';
 class Webpage extends React.Component{
   render(){
     return (
-      <p>The "world's" coolest webpage.</p>,
+      React.createElement('p',{},"The world's coolest webpage"),
       <FillerText />,
       <FillerText />
     );
